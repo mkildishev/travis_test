@@ -26,6 +26,6 @@ public class FooTest {
     @Test
     @DisplayName("Wrong test")
     public void wrongAnswerTest(){
-        assertEquals(true, true);
+        assertEquals(true, false);
     }
 }
