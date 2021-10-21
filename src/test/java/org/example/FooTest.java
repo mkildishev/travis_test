@@ -22,4 +22,10 @@ public class FooTest {
         String expectedResult = "FoolFoolFool";
         assertEquals(expectedResult, FooClass.fooLogic2("Fool", "Fool", "Fool"));
     }
+
+    @Test
+    @DisplayName("Wrong test")
+    public void wrongAnswerTest(){
+        assertEquals(true, true);
+    }
 }
